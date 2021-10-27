@@ -5,19 +5,11 @@
 @layer base {
     /* default theme */
     :root {
-      /* TODO:change these colors */
     /* --var-name: rgb value */
-    /* --color-primary:black */
-    /* --color-muted:gray */
-    /* --color-secondary:white */
-    /* --color-accent:purple */
-      --color-text-base: 255, 255, 255;
-      --color-text-muted: 199, 210, 254;
-      --color-text-inverted: 79, 70, 229;
-      --color-fill: 67, 56, 202;
-      --color-button-accent: 255, 255, 255;
-      --color-button-accent-hover: 238, 242, 255;
-      --color-button-muted: 99, 102, 241;
+    --color-primary: 17, 24, 39;
+    --color-muted: 109, 115, 128;
+    --color-secondary: 255, 255, 255;
+    --color-accent: 79, 70, 229;
     }
     /* custom themes
         if you apply this class on any element than these property will be used for that

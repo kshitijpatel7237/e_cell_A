@@ -9,26 +9,26 @@ function withOpacity(variableName) {
 
 // eslint-disable-next-line no-undef
 module.exports = {
-	purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+	purge: ["./src/*/.{js,jsx,ts,tsx}", "./public/index.html"],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {
 			textColor: {
 				custom: {
-					primary: withOpacity("--color-text-base"),
-					secondary: withOpacity("--color-text-muted"),
-					accent: withOpacity("--color-text-inverted"),
-					muteed: withOpacity("--color-text-muted"),
+					primary: withOpacity("--color-primary"),
+					secondary: withOpacity("--color-secondary"),
+					accent: withOpacity("--color-accent"),
+					muted: withOpacity("--color-muted"),
 				},
 			}, //usage: text-custom-primary  or text-custom-accent
 			backgroundColor: {
 				custom: {
-					primary: withOpacity("--color-fill"),
-					"button-accent": withOpacity("--color-button-accent"),
+					primary: withOpacity("--color-primary"),
+					"button-accent": withOpacity("--color-accent"),
 					"button-accent-hover": withOpacity(
-						"--color-button-accent-hover"
+						"--color-accent"
 					),
-					"button-muted": withOpacity("--color-button-muted"),
+					"button-muted": withOpacity("--color-muted"),
 				},
 			}, //usage: bg-custom-primary or bg-custom-butto-accent
 			gradientColorStops: {

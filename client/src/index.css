@@ -5,7 +5,12 @@
 @layer base {
     /* default theme */
     :root {
+      /* TODO:change these colors */
     /* --var-name: rgb value */
+    /* --color-primary:black */
+    /* --color-muted:gray */
+    /* --color-secondary:white */
+    /* --color-accent:purple */
       --color-text-base: 255, 255, 255;
       --color-text-muted: 199, 210, 254;
       --color-text-inverted: 79, 70, 229;

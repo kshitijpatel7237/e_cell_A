@@ -1,12 +1,13 @@
 function withOpacity(variableName) {
 	return ({ opacityValue }) => {
 		if (opacityValue !== undefined) {
-			return `rgba(var(${variableName}), ${opacityValue})`;
+			return `rgba(var(${variableName}), ${opacityValue})`
 		}
-		return `rgb(var(${variableName}))`;
-	};
+		return `rgb(var(${variableName}))`
+	}
 }
 
+// eslint-disable-next-line no-undef
 module.exports = {
 	purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
 	darkMode: false, // or 'media' or 'class'
@@ -17,6 +18,7 @@ module.exports = {
 					primary: withOpacity("--color-text-base"),
 					secondary: withOpacity("--color-text-muted"),
 					accent: withOpacity("--color-text-inverted"),
+					muteed: withOpacity("--color-text-muted"),
 				},
 			}, //usage: text-custom-primary  or text-custom-accent
 			backgroundColor: {
@@ -42,4 +44,4 @@ module.exports = {
 		extend: {},
 	},
 	plugins: [],
-};
+}

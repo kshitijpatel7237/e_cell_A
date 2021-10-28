@@ -1,7 +1,11 @@
 import React from "react"
 
 const Landing = () => {
-	return <div></div>
+	return (
+		<div>
+			Placeholder
+		</div>
+	)
 }
 
 export default Landing

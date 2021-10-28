@@ -4,18 +4,18 @@ import SearchBox from "./Components/SearchBox/SearchBox"
 const SearchPill = () => {
 	const ITEMS = ['Stay', 'Experiences', 'Rental Car']
 	const INPUTS = [[
-		{heading: "Location", subheading: "Where are you going?", type: "text"},
-		{heading: "Check in", subheading: "Add date", type: "date"},
-		{heading: "Check out", subheading: "Add date", type: "date"},
-		{heading: "Guests", subheading: "Add guests", type: "count"},
+		{heading: "Location", subheading: "Where are you going?", type: "text", icon: "map-marker"},
+		{heading: "Check in", subheading: "Add date", type: "date", icon: "calendar"},
+		{heading: "Check out", subheading: "Add date", type: "date", icon: "calendar"},
+		{heading: "Guests", subheading: "Add guests", type: "count", icon: "user-plus"},
 	], [
-		{heading: "Location", subheading: "Where are you going?", type: "text"},
-		{heading: "Date", subheading: "Add date", type: "date"},
-		{heading: "Guests", subheading: "Add guests", type: "count"},
+		{heading: "Location", subheading: "Where are you going?", type: "text", icon: "map-marker"},
+		{heading: "Date", subheading: "Add date", type: "date", icon: "calendar"},
+		{heading: "Guests", subheading: "Add guests", type: "count", icon: "user-plus"},
 	], [
-		{heading: "City or Airport", subheading: "Pick up location", type: "text"},
-		{heading: "Pick up", subheading: "Add date", type: "date"},
-		{heading: "Drop off", subheading: "Add date", type: "date"},
+		{heading: "City or Airport", subheading: "Pick up location", type: "text", icon: "map-marker"},
+		{heading: "Pick up", subheading: "Add date", type: "date", icon: "calendar"},
+		{heading: "Drop off", subheading: "Add date", type: "date", icon: "calendar"},
 	]]
 	const [selectedItem, setSelectedItem] = useState(0)
 

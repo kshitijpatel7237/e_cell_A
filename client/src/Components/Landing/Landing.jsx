@@ -3,7 +3,7 @@ import SearchPill from "./Components/SearchPill/SearchPill"
 
 const Landing = () => {
 	return (
-		<div className="relative flex flex-col items-center w-full text-white bg-custom-primary">
+		<div className="relative flex flex-col items-center w-full text-white lg:pt-20 bg-custom-primary">
 			<SearchPill />
 			<div className="max-w-screen-xl text-left lg:flex p-auto">
 				<div className="p-4 font-medium lg:w-1/2">

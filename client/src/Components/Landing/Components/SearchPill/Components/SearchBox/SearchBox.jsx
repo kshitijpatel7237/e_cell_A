@@ -8,10 +8,10 @@ const SearchBox = ({inputs}) => {
                 <p className="font-semibold">{input.heading}</p>
                 <p className="text-sm text-gray-400">{input.subheading}</p>
             </div>)}
-            <div className="flex items-center justify-center p-4 md:rounded-full md:w-24 md:h-20">
-				<button className="w-full py-3 text-lg rounded-3xl bg-custom-button-accent hover:bg-opacity-70">
-                    <p className="md:hidden">Search</p>
-                    <p className="hidden md:block">&nbsp;</p>
+            <div className="flex items-center justify-center p-4 md:rounded-full md:w-20 md:h-20 md:p-0">
+				<button className="flex items-center justify-center w-full py-3 text-lg rounded-3xl md:w-3/4 md:h-3/4 md:p-0 md:rounded-full bg-custom-button-accent hover:bg-opacity-70">
+                    <p className="md:hidden">Search&nbsp;&nbsp;</p>
+                    <img src="/icons/search.svg" className="inline-block w-5" />
                 </button>
             </div>
 		</div>

@@ -1,8 +1,10 @@
 import React from "react"
+import SearchPill from "./Components/SearchPill/SearchPill"
 
 const Landing = () => {
 	return (
-		<div className="flex justify-center w-full bg-custom-primary">
+		<div className="flex flex-col items-center w-full bg-custom-primary">
+			<SearchPill />
 			<div className="max-w-screen-xl text-left text-white lg:flex p-auto">
 				<div className="p-4 font-medium lg:w-1/2">
 					<h1 className="text-4xl md:text-5xl xl:text-6xl">Hotel, car & experiences</h1>

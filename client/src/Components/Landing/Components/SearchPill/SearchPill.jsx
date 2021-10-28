@@ -20,7 +20,7 @@ const SearchPill = () => {
 	const [selectedItem, setSelectedItem] = useState(0)
 
 	return (
-		<div className="z-50 w-full max-w-screen-xl lg:absolute lg:bottom-0">
+		<div className="z-10 w-full max-w-screen-xl lg:absolute lg:bottom-0">
 			<div className="flex justify-center mt-16 mb-8 text-sm font-medium text-gray-400 lg:text-base lg:justify-start lg:ml-16">
 				{ITEMS.map((item, i) => <div
 					className="flex items-center mx-2 cursor-pointer"

@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 function withOpacity(variableName) {
 	return ({ opacityValue }) => {
 		if (opacityValue !== undefined) {
@@ -36,7 +38,9 @@ module.exports = {
 					hue: withOpacity("--color-fill"),
 				},
 			}, //usage: you can use the name in gradient's to via and from classes
-
+			fontFamily: {
+				sans: ["'Poppins'", ...defaultTheme.fontFamily.sans]
+			}
 			//fonts customzation: do it youself 😉 https://www.youtube.com/watch?v=sOnBG2wUm1s
 		},
 	},

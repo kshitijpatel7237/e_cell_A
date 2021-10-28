@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 
 const SearchBox = ({inputs}) => {
-    console.log(inputs)
 	return (
 		<div className="flex flex-col m-4 overflow-hidden text-left shadow-2xl rounded-3xl md:flex-row md:items-center md:justify-between md:px-4 md:py-2 md:rounded-full bg-custom-primary">
 			{inputs.map(input => <div className="flex py-2 pl-4 border-b-2 border-white md:border-0">

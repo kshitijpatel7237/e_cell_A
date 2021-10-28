@@ -1,3 +1,4 @@
+const plugin = require('tailwindcss/plugin')
 function withOpacity(variableName) {
 	return ({ opacityValue }) => {
 		if (opacityValue !== undefined) {
@@ -43,5 +44,24 @@ module.exports = {
 	variants: {
 		extend: {},
 	},
-	plugins: [],
+	plugins: [
+		plugin(function({ addUtilities }) {
+		const newUtilities = {
+		/* Hide scrollbar for Chrome, Safari and Opera */
+		'.no-scrollbar::-webkit-scrollbar': {
+			'display': 'none',
+			'scroll-behavior': 'smooth',
+		},
+
+		/* Hide scrollbar for IE, Edge and Firefox */
+		'.no-scrollbar': {
+			'-ms-overflow-style': 'none',  /* IE and Edge */
+			'scrollbar-width': 'none',  /* Firefox */
+			'scroll-behavior': 'smooth',
+		},
+		}
+
+		addUtilities(newUtilities, ['responsive', 'hover'])
+	  })
+	],
 }

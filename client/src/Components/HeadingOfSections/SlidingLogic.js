@@ -1,4 +1,4 @@
-export async function Previous(){
+export function Previous(){
     const carousel=document.querySelector("#carousel")
     carousel.scrollBy(-256,0)
 }

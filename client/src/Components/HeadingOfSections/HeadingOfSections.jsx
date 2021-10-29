@@ -16,11 +16,11 @@ function HeadingOfSections(){
             <div className="text-left lg:flex lg:pt-15">
                 <div className="flex flex-col items-center justify-center mt-16 mb-8 ">
                     <img className="w-4/5" src={process.env.PUBLIC_URL + "/HeadingSectionImages/Flight.png"} />
-                    <h3 className="mt-4 text-custom-muted">BENNEFITS</h3>
-                    <h1 className="text-2xl font-semibold">Happening cities</h1>
                 </div>
 
                 <div className="my-16 ">
+                    <h3 className="mt-4 text-custom-muted">BENNEFITS</h3>
+                    <h1 className="mb-5 text-2xl font-semibold lg:text-3xl">Happening cities</h1>
                     <div className="py-3">
                         <span className="px-2 py-1 text-sm font-bold text-blue-900 bg-blue-100 border rounded-full">Advertising</span>
                         <h2 className="text-xl font-medium">Cost-effective Advertising</h2>

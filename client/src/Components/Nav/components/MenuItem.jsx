@@ -18,7 +18,7 @@ export default function Menuitem({ title }) {
 							clip-rule="evenodd"
 						/>
 					</svg>
-				<div className="absolute z-10 text-left transform opacity-0 translate-y-28 group-hover:opacity-100 tex-sm">
+				<div className="absolute z-10 hidden text-left transform translate-y-28 group-hover:block tex-sm">
 						<div className="flex flex-col p-2 space-y-1 bg-custom-primary rounded-xl">
 						<div className="p-2 rounded-lg text-custom-secondary hover:bg-gray-500 hover:bg-opacity-20" >Stay Page Map</div>
 						<div className="p-2 rounded-lg text-custom-secondary hover:bg-gray-500 hover:bg-opacity-20" >Stay Page </div>

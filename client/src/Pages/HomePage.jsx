@@ -1,4 +1,5 @@
 import React from "react"
+import Video from "../Components/Video/Video"
 import Testimonial from "../Components/Testimonial/Testimonial"
 import Landing from "../Components/Landing/Landing"
 import Nav from "../Components/Nav/Nav"
@@ -14,6 +15,7 @@ const HomePage = () => {
 			<Landing />
 			<HeadingOfSections/>
 			<Newsletter />
+			<Video />
 			<Testimonial/>
 			<Footer />
 		</div>

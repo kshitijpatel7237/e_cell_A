@@ -5,7 +5,7 @@ import React from "react"
 function Heading() {
     return (
         <div>
-            <h1 className="relative px-4 pt-8 mt-8 text-3xl font-extrabold text-gray-100 ">Join Our NewsLetter 🎉</h1>
+            <h1 className="relative px-3 pt-8 mt-8 mb-4 text-2xl font-extrabold text-gray-100 sm:text-3xl ">Join Our NewsLetter 🎉</h1>
             <p className="flex-wrap text-gray-400">Read and share new perspectives on just about any topic. Everyone’s welcome.</p>
             <ol className="my-4 leading-loose list-number">
                 <li className="text-lg text-gray-300 lg:text-2xl font-bold-700 ">

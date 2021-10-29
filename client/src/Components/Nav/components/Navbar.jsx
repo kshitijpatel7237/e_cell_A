@@ -5,7 +5,7 @@ import Menuitem from "./MenuItem"
 const Navbar = ({ sidebarOn, onSidebarChange }) => {
     const [toggleSearch, setToggleSearch] = useState(false)
 	return (
-		<div className="flex flex-row justify-between h-20 py-5 bg-custom-primary text-custom-secondary">
+		<div className="sticky top-0 z-20 flex flex-row justify-between h-20 py-5 bg-custom-primary text-custom-secondary">
 			{/* Logo Alternative */}
 			<div className="flex flex-row items-center ml-2">
 				<svg

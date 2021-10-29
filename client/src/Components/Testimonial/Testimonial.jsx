@@ -6,7 +6,7 @@ import Reviews from "./components/Reviews"
 
 function Testimonial() {
     return (
-        <div className="flex flex-col items-center justify-center w-screen py-12 bg-gray-200">
+        <div className="flex flex-col items-center justify-center w-full py-12 overflow-hidden bg-gray-200">
             <Title />
             <Description />
             <Reviews />

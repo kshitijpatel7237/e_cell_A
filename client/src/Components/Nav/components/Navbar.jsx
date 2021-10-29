@@ -1,4 +1,5 @@
 import React, {useState} from "react"
+import {Link} from "react-router-dom"
 import Menuitem from "./MenuItem"
 
 const Navbar = ({ sidebarOn, onSidebarChange }) => {
@@ -39,7 +40,11 @@ const Navbar = ({ sidebarOn, onSidebarChange }) => {
 				<Menuitem title={`Five Columns`} />
 				<Menuitem title={`Listing Page`} />
 				<Menuitem title={`Templates`} />
-				<Menuitem title={`Other Pages`} />
+				<li className="hidden md:block">
+					<div className="p-2 px-4 rounded-full hover:font-black hover:bg-gray-500 hover:bg-opacity-25">
+					<Link to="/Teams">Our Team</Link>
+					</div>
+				</li>	
 			</ul>
 			<ul className="flex flex-row items-center space-x-1">
 				{/* Dark mode icon */}

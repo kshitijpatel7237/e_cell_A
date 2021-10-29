@@ -1,4 +1,5 @@
 import React, {useState} from "react"
+import {Link} from "react-router-dom"
 
 const Sidebar = ({ sidebarOn, onSidebarChange }) => {
     // Toggles for dropdowns
@@ -147,7 +148,7 @@ const Sidebar = ({ sidebarOn, onSidebarChange }) => {
                     HOME
                 </div>
                 <div className="p-2 rounded-lg text-custom-secondary hover:bg-gray-500 hover:bg-opacity-20">
-                    FIVE COLUMNS
+                    <Link to="/Teams">OUR TEAM</Link>
                 </div>
                 <div className="flex flex-row justify-between p-2 rounded-lg text-custom-secondary hover:bg-gray-500 hover:bg-opacity-20" onClick={()=>{setToggle1(!toggle1)}}>
                     LISTING PAGE

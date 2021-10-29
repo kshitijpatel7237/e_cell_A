@@ -7,7 +7,7 @@ const Sidebar = ({ sidebarOn, onSidebarChange }) => {
     const [toggle3, setToggle3] = useState(false)
 
 	return (
-		<div className="absolute top-0 left-0 z-10 h-screen overflow-y-scroll border-r-2 border-white w-96 bg-custom-primary">
+		<div className="absolute top-0 left-0 z-50 h-screen overflow-y-scroll border-r-2 border-white w-96 bg-custom-primary">
 			<div
 				className="flex flex-row justify-end m-1"
 				onClick={() => {

@@ -9,26 +9,26 @@ function Col1() {
 			<div className="flex flex-row justify-between md:flex-col">
 
 				<div>
-					<a href="#" className="text-sm text-gray-300 hover:text-gray-100">
-						<img src="./images/fb-removebg-preview.png"/><p className="hidden md:inline-block">Facebook</p>
+					<a href="#" className="inline-flex text-sm text-gray-300 hover:text-gray-100">
+						<img src="/icons/fb-removebg-preview.png" className="mx-3 w-7 h-7"/><p className="hidden md:inline-block">Facebook</p>
 					</a>
 				</div>
 
 				<div>
-					<a href="#" className="text-sm text-gray-300 hover:text-gray-100">
-					<img src="./images/tweet-removebg-preview.png"/><p className="hidden md:inline-block">Twitter</p>
+					<a href="#" className="inline-flex text-sm text-gray-300 hover:text-gray-100">
+					<img src="/icons/tweet-removebg-preview(1).png" className="mx-3 w-7 h-7"/><p className="hidden md:inline-block">Twitter</p>
 					</a>
 				</div>
 
 				<div>
-					<a href="#" className="text-sm text-gray-300 hover:text-gray-100">
-					<img src="./images/Insta-removebg-preview.png"/><p className="hidden md:inline-block">Instagram</p>
+					<a href="#" className="inline-flex text-sm text-gray-300 hover:text-gray-100">
+					<img src="/icons/Insta-removebg-preview.png" className="mx-3 w-7 h-7" /><p className="hidden md:inline-block">Instagram</p>
 					</a>
 				</div>
 
 				<div>
-					<a href="#" className="text-sm text-gray-300 hover:text-gray-100">
-					<img src="./images/yt-removebg-preview(1).png"/><p className="hidden md:inline-block">Youtube</p>
+					<a href="#" className="inline-flex text-sm text-gray-300 hover:text-gray-100">
+					<img src="/icons/yt-removebg-preview(1).png" className="mx-3 w-7 h-7"/><p className="hidden md:inline-block">Youtube</p>
 					</a>
 				</div>
 

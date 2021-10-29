@@ -1,0 +1,23 @@
+.review-content{
+    opacity: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    transition: opacity ease-in-out 0.4s;
+}
+
+.review-content-animation{
+    opacity: 1;
+    display: block;
+}
+
+.dot{
+    background-color: gray;
+}
+
+.dot-active{
+    background-color: black;
+}
+
